@@ -1,0 +1,63 @@
+.content-menu{
+    width:100%;
+    text-align:center;
+    margin-bottom:-7px;
+}
+
+.logo{
+    position:relative;
+    z-index:100;
+    left:0;
+    -webkit-animation:logo 2s;
+    animation:logo 2s;
+    padding-right:5px;
+    padding-top:9px;
+    vertical-align: top;
+    }
+    @-webkit-keyframes logo{from{-webkit-transform:rotate(0) scale(.5)}to{-webkit-transform:rotate(-720deg) scale(1)}
+        
+    }
+.logoTwo{
+    position:relative;
+    z-index:100;
+    left:0;
+    padding-right:5px;
+    padding-top:5px;
+    vertical-align: top;
+    }
+    
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 800px) {
+    .content-menu{
+        display:none;
+    }
+}
+
+.neon-menu{
+    background:#000;background:url(/images/MarbleBG.jpg) center bottom;
+    display:inline-block;
+    box-shadow:0 1px 3px #000;
+    width:100%;
+    top:0;
+    left:0;
+    width:100%;
+}
+.navig,.neon-menu,.neon-menu .navig li{margin:0;padding:0}
+
+.neon-menu li{float:left;height:40px;padding-left:15px;padding-right:15px;display:inline;cursor:pointer;list-style:none;position:relative}
+
+.neon-menu>li:last-child{border-right:none!important;box-shadow:0 0 0}
+
+.neon-menu li ul{border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+
+.neon-menu li ul.first{left:0}.neon-menu .navig li{width:100%;line-height:30px;margin-right:10px}
+
+.neon-menu li a{display:block;line-height:40px;width:inherit;height:inherit;color:#d9d9d9;font-family:Arial,sans-serif;font-size:13px;text-transform:none;text-decoration:none;box-sizing:border-box;outline:0;transition:all .15s ease-in-out}ul.navig{width:200px;position:absolute;top:-99999px;left:100%;opacity:0;border:#000 solid 1px;transition:opacity .5s ease-in-out;background:#333;background:linear-gradient(to bottom,#333 0,#000 100%)}ul.navig li{height:40px!important}ul.navig li a{line-height:38px!important;text-align:left;padding-left:30px;font-size:13px}li:hover>.navig{opacity:1;position:absolute;width:200px;top:-2px;left:100%;z-index:1000}.neon-menu>li:hover>ul{top:100%}li:hover{position:relative;z-index:2000}.full{width:100%}.neon-menu i{line-height:39px!important;margin-right:4px;font-size:22px;float:left}ul.yellow li.active>a,ul.yellow li:hover>a{color:#e4dfb0;text-shadow:0 0 20px #e4dfb0}ul.yellow .search input[type=text]:focus{box-shadow:0 0 8px #e4dfb0}ul.yellow .search button:hover{color:#febf01}
+
+.right-menu {
+    float:right;
+    }
+
+li:hover {
+    background: #000000;
+}
